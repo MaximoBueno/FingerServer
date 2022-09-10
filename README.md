@@ -14,7 +14,7 @@ Se puede consumir este servidor web mediante:
 
 ## Requisitos:
 * Driver Zkteco para .net (master/FingerServer/Driver/)
-* . Net Framework 4.7.2
+* Net Framework 4.7.2
 
 ## Probables mejoras:
 * Agregar al servidor retorno de tipo JSON y quitar el retonor HTML
