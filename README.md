@@ -17,4 +17,4 @@ Se puede consumir este servidor web mediante:
 * . Net Framework 4.7.2
 
 ## Probables mejoras:
-* Agreagar al servidor un retorno de tipo JSON y quitar el retonor HTML
+* Agregar al servidor retorno de tipo JSON y quitar el retonor HTML
