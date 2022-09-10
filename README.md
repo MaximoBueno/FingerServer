@@ -13,7 +13,7 @@ Se puede consumir este servidor web mediante:
 * equipo: indica que conexion tiene ese equipo (0,1 o 2), generalmente es 0.
 
 ## Requisitos:
-* Driver Zkteco para .net
+* Driver Zkteco para .net (master/FingerServer/Driver/)
 * . Net Framework 4.7.2
 
 ## Probables mejoras:
