@@ -106,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Driver\driver.rar" />
     <None Include="FingerServer_TemporaryKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
