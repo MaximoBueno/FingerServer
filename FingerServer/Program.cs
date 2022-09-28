@@ -25,7 +25,8 @@ namespace FingerServer
                     enabled_finger = true;
                 }
 
-                WebServer server = new WebServer(Convert.ToInt32(puerto), enabled_finger, Convert.ToInt32(equipo));
+                //WebServer server = new WebServer(Convert.ToInt32(puerto), enabled_finger, Convert.ToInt32(equipo));
+                WebServerV2 server = new WebServerV2(Convert.ToInt32(puerto), enabled_finger, Convert.ToInt32(equipo));
 
                 server.Start();
                 server.Listen();
@@ -33,6 +34,7 @@ namespace FingerServer
             catch(Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                Console.ReadKey();
             }
            
         }
