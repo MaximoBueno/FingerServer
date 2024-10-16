@@ -9,7 +9,7 @@ Se puede consumir este servidor web mediante:
 
 ## Parametros de configuración (App.config):
 * puerto: indica el puerto del servidor web (número).
-* huellero: indica si el huellero va a funcionar (1=si,0=no).
+* huellero: indica si el huellero va a funcionar en modo de prueba o producción (1=si,0=no).
 * equipo: indica que conexion tiene ese equipo (0,1 o 2), generalmente es 0.
 
 ## Requisitos:
