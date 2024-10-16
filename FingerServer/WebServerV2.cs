@@ -163,16 +163,15 @@ namespace FingerServer
                     HttpListenerContext context = listener.GetContext();
                     HttpListenerRequest req = context.Request;
 
+                    //add headers
+                    
                     HttpListenerResponse resp = context.Response;
                     resp.AddHeader("Access-Control-Allow-Headers", "*");
                     resp.AppendHeader("Access-Control-Allow-Origin", "*");
                     resp.Headers.Set("Content-Type", "text/plain");
                     resp.Headers.Set("Access-Control-Allow-Origin", "*");
-
-                    //weno, lo intente xddd, lo siento :'u
-                    //me pasas el archivo por wsp
-
-                    string data = customResponseString(); //owo
+                    
+                    string data = customResponseString(); //data
                     byte[] buffer = Encoding.UTF8.GetBytes(data);
                     resp.ContentLength64 = buffer.Length;
 
