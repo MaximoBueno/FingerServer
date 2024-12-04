@@ -4,8 +4,8 @@ Es un servidor web que obtiene las huellas digitales, del biometrico ZKteco, y l
 
 ## Uso:
 Se puede consumir este servidor web mediante:
-* Ajax/Jquery
-* Otros
+* Ajax/Jquery.
+* Otros.
 
 ## Parametros de configuración (App.config):
 * puerto: indica el puerto del servidor web (número).
@@ -13,8 +13,11 @@ Se puede consumir este servidor web mediante:
 * equipo: indica que conexion tiene ese equipo (0,1 o 2), generalmente es 0.
 
 ## Requisitos:
-* Driver Zkteco para .net (master/FingerServer/Driver/)
-* Net Framework 4.7.2
+* Driver Zkteco para .net (master/FingerServer/Driver/).
+* Net Framework 4.7.2.
 
 ## Probables mejoras:
-* Agregar al servidor retorno de tipo JSON y quitar el retonor HTML
+* Agregar al servidor retorno de tipo JSON y quitar el retonor HTML.
+
+## Autor:
+* Maximo Hugo Bueno Uribe.
