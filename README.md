@@ -20,4 +20,4 @@ Se puede consumir este servidor web mediante:
 * Agregar al servidor retorno de tipo JSON y quitar el retonor HTML.
 
 ## Autor:
-* Maximo Hugo Bueno Uribe.
+* Max.
